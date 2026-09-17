@@ -1,0 +1,33 @@
+#top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#top-header > nav {
+  display: flex;
+  gap: 15px;
+}
+
+#main-nav {
+  background-color: #dee6dd;
+  padding: 15px;
+}
+
+#main-nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 700px) {
+  #top-header > p {
+    display: none;
+  }
+
+  #main-nav ul {
+    flex-direction: column;
+  }
+}

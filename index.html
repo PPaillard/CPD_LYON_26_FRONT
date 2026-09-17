@@ -10,14 +10,8 @@
   </head>
 
   <body>
-    <nav class="site-nav">
-      <a href="#">Accueil</a>
-      <a href="#">Collections</a>
-      <a href="#">À propos</a>
-      <a href="#">Contact</a>
-    </nav>
     <header>
-      <div>
+      <div id="top-header">
         <a href="/">
           <img src="logo.png" alt="Atelier Terres Claires" />
         </a>
@@ -34,7 +28,7 @@
         </nav>
       </div>
 
-      <nav>
+      <nav id="main-nav">
         <ul>
           <li><a href="/">Accueil</a></li>
           <li><a href="/collections">Collections</a></li>
@@ -45,7 +39,6 @@
     </header>
 
     <main>
-      <section>
       <section>
         <p>Notre collection</p>
 
@@ -64,38 +57,39 @@
         />
       </section>
 
-      <section id="produits">
+      <section id="products">
         <h2>Nos produits</h2>
+        <div id="products-list">
+          <article class="product-card">
+            <img src="images/bol-gres-bleu.jpg" alt="Bol en grès bleu" />
 
-        <article class="product-card">
-          <img src="images/bol-gres-bleu.jpg" alt="Bol en grès bleu" />
+            <h3>Bol en grès bleu</h3>
 
-          <h3>Bol en grès bleu</h3>
+            <p>35 €</p>
 
-          <p>35 €</p>
+            <a href="/produits/bol-gres-bleu"> Voir le produit </a>
+          </article>
 
-          <a href="/produits/bol-gres-bleu"> Voir le produit </a>
-        </article>
+          <article class="product-card">
+            <img src="images/bol-gres-blanc.jpg" alt="Bol en grès blanc" />
 
-        <article class="product-card">
-          <img src="images/bol-gres-blanc.jpg" alt="Bol en grès blanc" />
+            <h3>Bol en grès blanc</h3>
 
-          <h3>Bol en grès blanc</h3>
+            <p>32 €</p>
 
-          <p>32 €</p>
+            <a href="/produits/bol-gres-blanc"> Voir le produit </a>
+          </article>
 
-          <a href="/produits/bol-gres-blanc"> Voir le produit </a>
-        </article>
+          <article class="product-card">
+            <img src="images/bol-emaille-vert.jpg" alt="Bol émaillé vert" />
 
-        <article class="product-card">
-          <img src="images/bol-emaille-vert.jpg" alt="Bol émaillé vert" />
+            <h3>Bol émaillé vert</h3>
 
-          <h3>Bol émaillé vert</h3>
+            <p>38 €</p>
 
-          <p>38 €</p>
-
-          <a href="/produits/bol-emaille-vert"> Voir le produit </a>
-        </article>
+            <a href="/produits/bol-emaille-vert"> Voir le produit </a>
+          </article>
+        </div>
       </section>
 
       <aside>
@@ -106,45 +100,48 @@
     </main>
 
     <footer>
-      <img src="logo.png" alt="Atelier Terres Claires" />
+      <div>
+        <img src="logo.png" alt="Atelier Terres Claires" />
 
-      <nav>
-        <h2>Navigation</h2>
+        <nav>
+          <h2>Navigation</h2>
 
-        <ul>
-          <li><a href="/">Accueil</a></li>
-          <li><a href="/collections">Collections</a></li>
-          <li><a href="/a-propos">À propos</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-      </nav>
+          <ul>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/collections">Collections</a></li>
+            <li><a href="/a-propos">À propos</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </nav>
 
-      <nav>
-        <h2>Informations</h2>
+        <nav>
+          <h2>Informations</h2>
 
-        <ul>
-          <li><a href="/livraison">Livraison</a></li>
-          <li><a href="/retours">Retours</a></li>
-          <li><a href="/mentions-legales">Mentions légales</a></li>
-          <li>
-            <a href="/confidentialite"> Politique de confidentialité </a>
-          </li>
-        </ul>
-      </nav>
+          <ul>
+            <li><a href="/livraison">Livraison</a></li>
+            <li><a href="/retours">Retours</a></li>
+            <li><a href="/mentions-legales">Mentions légales</a></li>
+            <li>
+              <a href="/confidentialite"> Politique de confidentialité </a>
+            </li>
+          </ul>
+        </nav>
 
-      <nav>
-        <h2>Suivez-nous</h2>
+        <nav>
+          <h2>Suivez-nous</h2>
 
-        <ul>
-          <li><a href="#">Instagram</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Pinterest</a></li>
-        </ul>
-      </nav>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Pinterest</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <p>© 2024 Atelier Terres Claires. Tous droits réservés.</p>
 
-      <p>© 2024 Atelier Terres Claires. Tous droits réservés.</p>
-
-      <p>Des objets du quotidien qui ont du sens.</p>
+        <p>Des objets du quotidien qui ont du sens.</p>
+      </div>
     </footer>
   </body>
 </html>
